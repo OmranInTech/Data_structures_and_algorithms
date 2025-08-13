@@ -18,5 +18,6 @@ def binary_search(lst, element):
 
 
 mylist = [1, 2, 3, 4, 5, 6]
+#calling function
 result = binary_search(mylist, 5)
 print(result)
