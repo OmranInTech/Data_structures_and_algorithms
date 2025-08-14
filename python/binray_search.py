@@ -1,3 +1,4 @@
+#binary_search_algorithm
 def binary_search(sorted_list: list[int], target: int) -> int | None:
     """
     Performs binary search on a sorted list.
