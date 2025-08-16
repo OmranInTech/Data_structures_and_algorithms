@@ -1,5 +1,4 @@
-                                            #bubble sort 
-
+#bubble_sort_algorithm
 def bubblesort(arr):
 
     n=len(arr)
