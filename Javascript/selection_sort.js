@@ -1,5 +1,7 @@
 
+//selection sort algorithm 
 
+//selection sort function
 function selectionSort(arr) {   
     for (let i = 0; i < arr.length - 1; i++) {
         let minIndex = i;
