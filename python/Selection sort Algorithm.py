@@ -1,6 +1,6 @@
+#selection sort algorithm
 
-                                #selection sort algorithm
-#define a function                                
+#selection sort function                                
 def selectionsort (arr):
    
    #declare the length of array
