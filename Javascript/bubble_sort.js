@@ -1,4 +1,6 @@
+//bubble sort algoithm 
 
+//bubble sort function 
 function bubble_sort(arr) { 
     const n = arr.length;
     let swapped;
