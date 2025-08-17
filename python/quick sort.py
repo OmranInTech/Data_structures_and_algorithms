@@ -1,3 +1,5 @@
+#quick sort 
+
 def quicksort(arr):
     #we use this condition for array that has one element so the array is already sorted
     if len(arr) <=1:
