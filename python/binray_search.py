@@ -26,7 +26,7 @@ def binary_search(sorted_list: list[int], target: int) -> int | None:
 
     return None
 
-#use of binary search algorithm
+#use of binary search 
 my_list = [1, 2, 3, 4, 5, 6]
 result = binary_search(my_list, 5)
 print(result)
