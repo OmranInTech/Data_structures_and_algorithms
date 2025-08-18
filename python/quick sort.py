@@ -27,7 +27,7 @@ def quicksort(arr):
     #now we will combine smaller pivot and larger numbers and return them 
     return sorted_smaller+ [pivot] +sorted_larger
 
-#lets check the algorithm
+#use of algorithm
 numbers=[8,2,43,2,12,645,231,122,9]
 print(f'Original numbers ' ,numbers)
 print('sorted numbers : ',quicksort(numbers))
