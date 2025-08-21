@@ -18,7 +18,7 @@ function bubble_sort(arr) {
     while (swapped);   // Continue until no swaps are made
     return arr; // Return the sorted array
 }
-// Example usage:
+// Function use : 
 const unsortedArray = [64, 34, 25, 12, 22, 11, 90];
 const sortedArray = bubble_sort(unsortedArray);
 console.log(`Sorted array: ${sortedArray}`);    
