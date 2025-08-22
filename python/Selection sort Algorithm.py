@@ -9,7 +9,7 @@ def selectionsort (arr):
     #perfom loop on each element in array
     for i in range(n):
         
-        #value in index i will be condidered as minimum  value in array
+        #value index equals to minimum
         min_index=i
         
         #value index i will be comapred with other values in array
