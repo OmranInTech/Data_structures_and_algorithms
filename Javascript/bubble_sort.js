@@ -22,13 +22,4 @@ function bubble_sort(arr) {
 const unsortedArray = [64, 34, 25, 12, 22, 11, 90];
 const sortedArray = bubble_sort(unsortedArray);
 console.log(`Sorted array: ${sortedArray}`);    
-// Output: Sorted array: [11, 12, 22, 25, 34, 64, 90]
-module.exports = bubble_sort; // Exporting the function for use in other files
-// This allows the function to be imported in other modules or test files.
 
-// Exporting the function for use in other files
-
-module.exports = bubble_sort; // Exporting the function for use in other files
-// This allows the function to be imported in other modules or test files.
-// This allows the function to be imported in other modules or test files.
-// This allows the function to be imported in other modules or test files.
