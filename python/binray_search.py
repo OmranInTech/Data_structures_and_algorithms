@@ -2,7 +2,7 @@
 
 def binary_search_fun (arr,target_value):
     low =0
-    high=len(arr)+1
+    high=len(arr)-1
     while low <= high:
         mid=(low+high)//2
         guess=arr[mid]
