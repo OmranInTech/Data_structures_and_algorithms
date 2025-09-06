@@ -24,7 +24,7 @@ def quicksort(arr):
     sorted_smaller = quicksort(smaller)
     sorted_larger  = quicksort(larger)
 
-    #combine of pivotes 
+    #combine of pivote left and right 
     return sorted_smaller+ [pivot] +sorted_larger
 
 #use of  function of quick sort
