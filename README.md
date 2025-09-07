@@ -3,7 +3,7 @@
 Welcome to my **Data Structures and Algorithms (DSA)** repository!  
 This project is dedicated to learning, implementing, and practicing **core DSA concepts** in both **JavaScript** and **Python**.  
 
-At the moment, the repository focuses on **Sorting Algorithms**, but it will gradually expand to cover a complete range of **Data Structures** and **Algorithms**.
+At the moment, the repository focuses on **Sorting Algorithms**, **Fibonacci**, and **Factorial**, but it will gradually expand to cover a complete range of **Data Structures** and **Algorithms**.
 
 ---
 
@@ -19,12 +19,13 @@ At the moment, the repository focuses on **Sorting Algorithms**, but it will gra
 │       └── quickSort.js
 │
 ├── python/
-│   └── sorting/
-│       ├── bubble_sort.py
-│       ├── selection_sort.py
-│       ├── insertion_sort.py
-│       ├── merge_sort.py
-│       └── quick_sort.py
+│   ├── bubble_sort.py
+│   ├── selection_sort.py
+│   ├── insertion_sort.py
+│   ├── merge_sort.py
+│   ├── quick_sort.py
+│   ├── fibonacci.py
+│   └── factorial.py
 │
 └── README.md
 ```
@@ -39,6 +40,10 @@ At the moment, the repository focuses on **Sorting Algorithms**, but it will gra
 - Insertion Sort  
 - Merge Sort  
 - Quick Sort  
+
+### 🔹 Recursion
+- Fibonacci  
+- Factorial  
 
 ---
 
@@ -61,17 +66,19 @@ This repository will be expanded to include:
    git clone https://github.com/OmranInTech/dsa-js-python.git
    cd dsa-js-python
    ```
-2. Navigate into `javascript/sorting/` or `python/sorting/`.  
+2. Navigate into `javascript/sorting/` or `python/`.  
 3. Run a file:  
 
    **Python example:**  
    ```bash
-   python sorting/merge_sort.py
+   python python/merge_sort.py
+   python python/fibonacci.py
+   python python/factorial.py
    ```
 
    **JavaScript example:**  
    ```bash
-   node sorting/mergeSort.js
+   node javascript/sorting/mergeSort.js
    ```
 
 ---
@@ -99,6 +106,4 @@ If you’d like to add new algorithms or optimize existing ones:
 
 **Author:** Omran Ahmadzai  
 📩 Email: ahmadzai.omran12@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/omran-ahmadzai-68a5b6351/) | [GitHub]https://github.com/OmranInTech)  
-
----
+🔗 [LinkedIn](https://www.linkedin.com/in/omran-ahmadzai-68a5b6351/) | [GitHub](https://github.com/OmranInTech)  
