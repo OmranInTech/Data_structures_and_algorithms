@@ -34,6 +34,6 @@ def selectionsort (arr):
     #return arr    
     return arr
 
-#example
+#example for function
 array=[61,25,12,22,11]
 print(selectionsort(array))
