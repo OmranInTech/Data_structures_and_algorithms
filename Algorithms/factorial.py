@@ -9,7 +9,7 @@ def factorial (n):
   else : 
     return n*factorial(n-1)
 
-#test
+#test of function
 number=3
 print(factorial(number))
 
