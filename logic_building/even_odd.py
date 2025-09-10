@@ -4,7 +4,6 @@ def even_odd(n):
         return "Even"
     else:
         return "Odd"
-
 # Example usage:
 print(even_odd(4))  # Output: Even
 print(even_odd(7))  # Output: Odd
