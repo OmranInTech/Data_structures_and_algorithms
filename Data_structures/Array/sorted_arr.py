@@ -10,5 +10,5 @@ def sorted_arr(arr):
 #example usage
 arr=[1,2,3,4]
 arr_1=[2,4,3,1]
-print(sorted_arr(arr))
-print(sorted_arr(arr_1))
+print(sorted_arr(arr)) #output : True
+print(sorted_arr(arr_1)) #output : False
