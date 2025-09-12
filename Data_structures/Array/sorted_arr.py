@@ -7,7 +7,7 @@ def sorted_arr(arr):
     if arr[i] > arr[i+1]:
       return False
   return True
-#example usage
+#example usage :
 arr=[1,2,3,4]
 arr_1=[2,4,3,1]
 print(sorted_arr(arr)) #output : True
