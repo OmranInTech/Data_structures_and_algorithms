@@ -1,8 +1,10 @@
 #method 1
 def reverse_arr(arr):
+    '''this function will reverse array by usign indexes'''
     return arr[::-1]
 #method 2
 def reverse_arr_1(arr):
+    '''this array will reverse array elements by swaping each of them '''
     start=0
     end=len(arr)-1
     while start < end:
