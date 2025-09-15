@@ -12,7 +12,7 @@ def lenght_linkedlist(head):
   current=head
   while current is not None:
     count +=1
-    current[0]=current[1]
+    current=current[1]
   return count
 
 print(lenght_linkedlist(head))
