@@ -10,7 +10,9 @@ head=node1
 def lenght_linkedlist(head):
   count=0
   current=head
-  while current in not None:
+  while current is not None:
     count +=1
     current[0]=current[1]
   return count
+
+print(lenght_linkedlist(head))
