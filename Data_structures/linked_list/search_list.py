@@ -9,9 +9,12 @@ node3[1]=node4
 
 head=node1
 
-def search_linkedlist(head):
+def search_linkedlist(head,key):
   current=head
   while current is not None:
-    if current==head:
-      return ture
-  return false
+    if current[0]==key:
+      return True
+    current=current[1]
+  return False
+
+print(search_linkedlist(head,20))
