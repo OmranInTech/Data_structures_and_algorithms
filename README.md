@@ -1,33 +1,53 @@
-# 📘 Data Structures and Algorithms in JavaScript & Python
+# 📘 Data Structures and Algorithms in JavaScript
 
 Welcome to my **Data Structures and Algorithms (DSA)** repository!  
-This project is dedicated to learning, implementing, and practicing **core DSA concepts** in both **JavaScript** and **Python**.  
+This project is dedicated to learning, implementing, and practicing **core DSA concepts** in **JavaScript**.  
 
-At the moment, the repository focuses on **Sorting Algorithms**, **Fibonacci**, and **Factorial**, but it will gradually expand to cover a complete range of **Data Structures** and **Algorithms**.
+At the moment, the repository focuses on **Sorting Algorithms**, **Arrays**, **Linked Lists**, **Fibonacci**, and **Factorial**, but it will gradually expand to cover a complete range of **Data Structures** and **Algorithms**.
 
 ---
 
 ## 📂 Repository Structure
 
 ```bash
-├── javascript/
-│   └── sorting/
+├── Algorithms/
+│   └── Sorting/
 │       ├── bubbleSort.js
-│       ├── selectionSort.js
 │       ├── insertionSort.js
-│       ├── mergeSort.js
-│       └── quickSort.js
+│       ├── selectionSort.js
+│       └── (other sorting algorithms)
 │
-├── python/
-│   ├── bubble_sort.py
-│   ├── selection_sort.py
-│   ├── insertion_sort.py
-│   ├── merge_sort.py
-│   ├── quick_sort.py
-│   ├── fibonacci.py
-│   └── factorial.py
+├── DataStructures/
+│   ├── Arrays/
+│   │   ├── maxMinValue_arr.js
+│   │   ├── reverse.js
+│   │   ├── secondLargest.js
+│   │   ├── sum.js
+│   │   ├── countAwareness.js
+│   │   ├── duplicates.js
+│   │   ├── reverseLeft.js
+│   │   └── sorted.js
+│   │
+│   └── LinkedLists/
+│       ├── addStart.js
+│       ├── addEnd.js
+│       ├── deleteByKey.js
+│       ├── deleteByPosition.js
+│       ├── designBrowserHistory.js
+│       ├── reverseLinkedList.js
+│       ├── searchInLinkedList.js
+│       ├── detectLoopInLinkedList.js
+│       ├── lengthOfLinkedList.js
+│       ├── middleOfLinkedList.js
+│       └── remove.js
 │
-└── README.md
+├── logic_building/
+│   ├── fibonacci.js
+│   └── factorial.js
+│
+└── z_DSA_IN_Javascript/
+    ├── binarySearch.js
+    └── README.md
 ```
 
 ---
@@ -36,10 +56,29 @@ At the moment, the repository focuses on **Sorting Algorithms**, **Fibonacci**, 
 
 ### 🔹 Sorting Algorithms
 - Bubble Sort  
-- Selection Sort  
 - Insertion Sort  
-- Merge Sort  
-- Quick Sort  
+- Selection Sort  
+
+### 🔹 Arrays
+- Max & Min Value  
+- Reverse Array  
+- Second Largest Element  
+- Sum of Elements  
+- Count Awareness  
+- Detect Duplicates  
+- Left Rotation  
+- Check if Sorted  
+
+### 🔹 Linked Lists
+- Add at Start / End  
+- Delete by Key / Position  
+- Reverse Linked List  
+- Search in Linked List  
+- Detect Loop  
+- Find Length  
+- Find Middle Node  
+- Remove Node  
+- Browser History Design  
 
 ### 🔹 Recursion
 - Fibonacci  
@@ -52,10 +91,10 @@ At the moment, the repository focuses on **Sorting Algorithms**, **Fibonacci**, 
 This repository will be expanded to include:
 
 - **Data Structures**  
-  Arrays, Strings, Linked Lists, Stacks, Queues, Hash Maps, Trees, Graphs, Tries  
+  Strings, Stacks, Queues, Hash Maps, Trees, Graphs, Tries  
 
 - **Algorithms**  
-  Searching, Recursion, Divide & Conquer, Dynamic Programming, Greedy Algorithms, Backtracking, Graph Algorithms, etc.  
+  Searching, Divide & Conquer, Dynamic Programming, Greedy Algorithms, Backtracking, Graph Algorithms, etc.  
 
 ---
 
@@ -63,22 +102,16 @@ This repository will be expanded to include:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/OmranInTech/dsa-js-python.git
-   cd dsa-js-python
+   git clone https://github.com/OmranInTech/Data_structures_and_algorithms.git
+   cd dsa-javascript
    ```
-2. Navigate into `javascript/sorting/` or `python/`.  
+2. Navigate into the folder (e.g., `Algorithms/Sorting/`, `DataStructures/Arrays/`, etc.)  
 3. Run a file:  
-
-   **Python example:**  
-   ```bash
-   python python/merge_sort.py
-   python python/fibonacci.py
-   python python/factorial.py
-   ```
 
    **JavaScript example:**  
    ```bash
-   node javascript/sorting/mergeSort.js
+   node Algorithms/Sorting/bubbleSort.js
+   node logic_building/fibonacci.js
    ```
 
 ---
@@ -96,7 +129,7 @@ If you’d like to add new algorithms or optimize existing ones:
 
 ## 📌 Resources
 
-- [GeeksforGeeks – Sorting](https://www.geeksforgeeks.org/sorting-algorithms/)  
+- [GeeksforGeeks – DSA](https://www.geeksforgeeks.org/data-structures/)  
 - [LeetCode](https://leetcode.com/)  
 - [HackerRank](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)  
 
@@ -106,4 +139,4 @@ If you’d like to add new algorithms or optimize existing ones:
 
 **Author:** Omran Ahmadzai  
 📩 Email: ahmadzai.omran12@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/omran-ahmadzai-68a5b6351/) | [GitHub](https://github.com/OmranInTech)  
+🔗 [LinkedIn](https://www.linkedin.com/in/omran-ahmadzai-68a5b6351/) | [GitHub](https://github.com/OmranInTech)
