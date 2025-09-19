@@ -8,6 +8,7 @@ node2[1]=node3
 node3[1]=node4
 
 head=node1
+#function use
 
 def search_linkedlist(head,key):
   current=head
