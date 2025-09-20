@@ -1,5 +1,6 @@
 #subarray sum 
 def subarray_sum(arr,k):
+  #this function will return the number of subarry sum equals to k
   count=0
   n=len(arr)
   for i in range(n):
