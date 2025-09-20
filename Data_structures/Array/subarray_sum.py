@@ -9,4 +9,10 @@ def subarray_sum(arr,k):
       if total == k:
         count+=1
   return count 
+#example usage
+arr=[1,2,3]
+k=3
+print(subarray_sum(arr,k))
+'''explaniation
+arr [3] and arr[1,2] '''
 
