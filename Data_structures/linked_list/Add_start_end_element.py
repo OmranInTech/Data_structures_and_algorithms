@@ -1,20 +1,17 @@
+
 def add_at_end(head, value):
     new_node = [value, None]
-    
-    # If list is empty, new node becomes head
     if head is None:
         return new_node
-    
     current = head
-    while current[1] is not None:  # traverse till last node
+    while current[1] is not None:
         current = current[1]
-    current[1] = new_node  # link last node to new node
-    
+    current[1] = new_node 
     return head
 
 def add_at_start(head, value):
-    new_node = [value, head]  # new node points to current head
-    return new_node  # new node becomes the new head
+    new_node = [value, head]  
+    return new_node  
 
 def print_list(head):
     current = head
