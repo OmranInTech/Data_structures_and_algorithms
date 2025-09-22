@@ -1,7 +1,6 @@
 def delete_by_position(head, position):
     if head is None:
         return head
-
     # If deleting the head node
     if position == 0:
         return head[1]
