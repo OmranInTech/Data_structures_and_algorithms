@@ -1,4 +1,5 @@
 #desiging borswer history
+
 class BrowserHistory:
     def __init__(self, homepage):
         self.current = homepage
@@ -31,7 +32,6 @@ class BrowserHistory:
 
 
 # Example usage:
-
 history = BrowserHistory("google.com")
 
 history.visit("openai.com")
