@@ -1,7 +1,6 @@
 def push(stack,item):
     stack.append(item)
     return stack
-
 def pop(stack):
     if stack is None or len(stack) == 0:
         return None
