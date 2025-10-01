@@ -13,7 +13,6 @@ def peek(stack):
 
 def is_empty(stack):
     return stack is None or len(stack) == 0
-
 def size(stack):
     if stack is None:
         return 0
