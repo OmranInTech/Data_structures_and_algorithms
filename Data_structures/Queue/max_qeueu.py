@@ -5,5 +5,4 @@ def max_queue(qeue):
             max_value=i
     return max_value
 #example usage
-
 print(max_queue([1,2,3,4]))
