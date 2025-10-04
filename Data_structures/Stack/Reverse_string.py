@@ -1,8 +1,6 @@
-# Input string
+#reverse_string
 s = "hello"
-# Use a stack (list)
 stack = []
-# Push all characters onto the stack
 for char in s:
     stack.append(char)
 reversed_s = ""
