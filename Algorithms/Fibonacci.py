@@ -1,5 +1,4 @@
-'''Fibonacci search is a technique similar to binary search,
-useful when data access time depends on location.'''
+
 def fibonacci_sequence (n):
   """ this function is used to find fibonacci for a number
       we create the function with base case and recursive call to 
