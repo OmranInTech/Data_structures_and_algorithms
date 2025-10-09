@@ -8,8 +8,7 @@ def factorial (n):
     return 1
   else : 
     return n*factorial(n-1)
-
-#test of function
+#examle usage
 number=3
 print(factorial(number))
 
