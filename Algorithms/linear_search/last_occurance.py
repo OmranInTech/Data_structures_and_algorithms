@@ -4,6 +4,5 @@ def last_occurrence(arr, k):
         if arr[i] == k:
             current_position = i
     return current_position
-
 # Example usage
 print(last_occurrence([1, 3, 3, 4, 5], 3))  # Output: 2
