@@ -1,5 +1,5 @@
 def max_queue(qeue):
-    #function 
+    #this use loop to find max value in queue. we implemented qeue throw array .
     max_value=0
     for i in qeue:
         if i > max_value:
