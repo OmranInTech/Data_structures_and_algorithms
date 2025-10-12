@@ -1,11 +1,9 @@
 def binary_search(arr, target):
     """
     Perform binary search on a sorted array.
-    
     Parameters:
         arr (list): A sorted list of elements.
         target: The value to search for.
-        
     Returns:
         int: The index of target in arr if found, else None.
     """
