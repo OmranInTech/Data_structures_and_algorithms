@@ -1,5 +1,4 @@
 #desiging borswer history
-
 class BrowserHistory:
     def __init__(self, homepage):
         self.current = homepage
