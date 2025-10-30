@@ -7,7 +7,7 @@ def max_min_value_array(arr):
         if i < min_value:
             min_value = i
     return max_value, min_value
-# Example usage:
+# Example :
 arr = [3, 7, 1, 9, -2]
 max_val, min_val = max_min_value_array(arr)
 print("Max:", max_val)
