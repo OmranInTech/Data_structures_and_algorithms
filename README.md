@@ -1,7 +1,7 @@
-# 📘 Data Structures and Algorithms in JavaScript
+# 📘 Data Structures and Algorithms in Python
 
 Welcome to my **Data Structures and Algorithms (DSA)** repository!  
-This project is dedicated to learning, implementing, and practicing **core DSA concepts** in **JavaScript**.  
+This project is dedicated to learning, implementing, and practicing **core DSA concepts** in **python**.  
 
 At the moment, the repository focuses on **Sorting Algorithms**, **Arrays**, **Linked Lists**, **Fibonacci**, and **Factorial**, but it will gradually expand to cover a complete range of **Data Structures** and **Algorithms**.
 
