@@ -6,8 +6,8 @@ def dequeue():
     return queue.pop(0)
 def peek():
     return queue[0]
+    
 enqueue(12)
-enqueue(14)
 enqueue(66)
 dequeue()
 print(queue)
