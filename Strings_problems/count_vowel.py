@@ -1,3 +1,4 @@
+#vowel count in a sentence 
 def count_vowel(s):
     vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     count = 0
