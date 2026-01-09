@@ -1,4 +1,4 @@
-#binary search
+
 def binary_search(arr, target):
     """
     Perform binary search on a sorted array.
