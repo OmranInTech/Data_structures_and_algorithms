@@ -1,4 +1,4 @@
-#last occurrence
+
 def last_occurrence(arr, k):
     current_position = -1   # -1 means "not found"
     for i in range(len(arr)):
